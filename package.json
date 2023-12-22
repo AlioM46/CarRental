@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install-client": "cd client && npm install",
-    "build-client": "cd client && npm run build",
-    "start-client": "cd client && npm run start"
+    "install-client": "cd carRental && npm install",
+    "build-client": "cd carRental && npm run build",
+    "start-client": "cd carRental && npm run start"
   },
   "keywords": [],
   "author": "",
