@@ -1,0 +1,26 @@
+.sButton {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: var(--padding-btn);
+  background-color: var(--color-black-dark);
+  color: white;
+  transition: all 0.3s;
+  font-weight: var(--font-bold);
+  letter-spacing: 0.2px;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 2px solid var(--color-black-dark);
+}
+
+.sButton:hover {
+  background-color: #ffffff;
+  color: var(--color-black-dark);
+}
+
+@media (max-width: 1000px) {
+  .sButton {
+    padding: 0.8rem 1.5rem;
+  }
+}

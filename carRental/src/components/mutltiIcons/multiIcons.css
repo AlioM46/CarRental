@@ -1,0 +1,27 @@
+.multiIcons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.multiIcons img {
+  max-width: 150px;
+}
+
+.multiIcons__text {
+  text-align: center;
+}
+
+.multiIcons h3 {
+  font-size: 24px;
+  font-weight: var(--font-bold);
+  margin-bottom: 10px;
+}
+
+.multiIcons p {
+  color: var(--color-black-light);
+  max-width: 350px;
+  text-align: center;
+}

@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #ffffff;
+  --pColor: #fa4226;
+  --color-black-dark: #010103;
+  --color-black-medium: #2d2d2d;
+  --color-black-light: #706f7b;
+  --red-boxShadow-low: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
+  --red-boxShadow-high: 0 10px 15px 0 rgba(255, 83, 48, 0.5);
+  --black-boxShadow: 0px 5px 30px 8px rgba(0, 0, 0, 0.08);
+
+  /* Fonts */
+
+  --font-bold: 700;
+  --font-medium: 500;
+  --font-light: 400;
+
+  /* Font-Size */
+
+  --font-sm: 1.6rem;
+  --font-md: 2.2rem;
+  --font-lg: 5.2rem;
+
+  /* Sizes */
+
+  --padding-btn: 1.2rem 2.2rem;
+}

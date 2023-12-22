@@ -1,0 +1,82 @@
+{
+  "cars": [
+    {
+      "name": "Audi A1 S-Line",
+      "model": "Audi",
+      "mark": "A1",
+      "year": "2012",
+      "doors": "4/5",
+      "ac": "Yes",
+      "transmission": "Manual",
+      "fuel": "Gasoline",
+      "image": "https://car-rental-ten.vercel.app/static/media/audia1.d038cf70b700e34e607a.jpg",
+      "rent": "45",
+      "id": "1"
+    },
+    {
+      "name": "VW Golf 6",
+      "model": "Golf 6",
+      "mark": "Volkswagen",
+      "year": "2008",
+      "doors": "4/5",
+      "ac": "Yes",
+      "transmission": "Manual",
+      "fuel": "Diesel",
+      "image": "https://car-rental-ten.vercel.app/static/media/golf6.595c0bbfc7ce2e50aa05.jpg",
+      "rent": "37",
+      "id": "2"
+    },
+    {
+      "name": "Toyota Camry",
+      "model": "Camry",
+      "mark": "Toyota",
+      "year": "2006",
+      "doors": "4/5",
+      "ac": "Yes",
+      "transmission": "Automatic",
+      "fuel": "Hybrid",
+      "image": "https://car-rental-ten.vercel.app/static/media/toyotacamry.3d493a56558c50b677cc.jpg",
+      "rent": "30",
+      "id": "3"
+    },
+    {
+      "name": "BMW 320 ModernLine",
+      "model": "320",
+      "mark": "BMW",
+      "year": "2012",
+      "doors": "4/5",
+      "ac": "Yes",
+      "transmission": "Manual",
+      "fuel": "Diesel",
+      "image": "https://car-rental-ten.vercel.app/static/media/bmw320.84ab73b0c9133418f907.jpg",
+      "rent": "35",
+      "id": "4"
+    },
+    {
+      "name": "Mercedes-Benz GLK",
+      "model": "Benz GLK",
+      "mark": "Mercedes",
+      "year": "2006",
+      "doors": "4/5",
+      "ac": "Yes",
+      "transmission": "Manual",
+      "fuel": "Diesel",
+      "image": "https://car-rental-ten.vercel.app/static/media/benz.0a6153731a2c1a68054a.jpg",
+      "rent": "50",
+      "id": "5"
+    },
+    {
+      "name": "VW Passat CC",
+      "model": "Passat CC",
+      "mark": "Volkswagen",
+      "year": "2008",
+      "doors": "4/5",
+      "ac": "Yes",
+      "transmission": "Automatic",
+      "fuel": "Gasoline",
+      "image": "https://car-rental-ten.vercel.app/static/media/passatcc.bd82bd1deac8c11e3c4d.jpg",
+      "rent": "25",
+      "id": "6"
+    }
+  ]
+}

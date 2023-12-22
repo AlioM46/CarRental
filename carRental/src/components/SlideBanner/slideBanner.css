@@ -1,0 +1,63 @@
+.slideBanner {
+  background-image: url("../../assets/images/carBanner.png");
+  width: 100%;
+  height: 25rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  user-select: none;
+}
+
+.slideBanner__overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.slideBanner__text {
+  position: absolute;
+  left: 20%;
+  top: 40%;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  font-size: 22px;
+  font-weight: var(--font-medium);
+}
+
+.slideBanner h2 {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  font-size: 32px;
+  font-weight: var(--font-bold);
+}
+
+.slideBanner__text > * {
+  transition: 0.2s;
+}
+.slideBanner__text > *:hover {
+  color: var(--pColor);
+}
+
+@media (max-width: 550px) {
+  .slideBanner__text {
+    font-size: 18px;
+    top: 200px;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+  }
+  .slideBanner h2 {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+  }
+}

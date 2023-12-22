@@ -1,0 +1,28 @@
+.pButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: var(--padding-btn);
+  background-color: var(--pColor);
+  color: white;
+  box-shadow: var(--red-boxShadow-low);
+  transition: all 0.3s;
+  font-weight: var(--font-bold);
+  letter-spacing: 0.2px;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 2px solid var(--pColor);
+  width: fit-content;
+}
+
+.pButton:hover {
+  background-color: #fa4226;
+  box-shadow: var(--red-boxShadow-high);
+}
+
+@media (max-width: 1000px) {
+  .pButton {
+    padding: 0.8rem 1.5rem;
+  }
+}

@@ -1,0 +1,74 @@
+.bookCar {
+  background-color: var(--color-bg);
+  box-shadow: var(--black-boxShadow);
+  border-radius: 5px;
+  max-width: 80rem;
+  margin: 4rem auto;
+  padding: 3rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.bookCar > h1 {
+  font-size: 26px;
+  font-weight: var(--font-bold);
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.bookCar form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: auto;
+}
+
+.errMsg {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+  font-weight: var(--font-medium);
+  text-align: left;
+  margin: 1.5rem 0;
+  margin-left: 10px;
+}
+.successMsg {
+  background-color: #c3fabe;
+  color: #2a6817;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+  font-weight: var(--font-medium);
+  text-align: left;
+  margin: 1.5rem 0;
+  margin-left: 10px;
+}
+
+.msgBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.msgBetween svg {
+  cursor: pointer;
+}
+
+.btnWrapper {
+  width: 100%;
+  height: 50%;
+  align-self: center;
+  margin-top: 2rem;
+}
+
+.btnWrapper div {
+  height: 100%;
+}
+
+@media (max-width: 992px) {
+  .bookCar form {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+  .bookCar {
+    padding: 1rem;
+  }
+}

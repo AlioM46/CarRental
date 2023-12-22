@@ -1,0 +1,29 @@
+.headingTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.headingTitle h3 {
+  font-size: 22px;
+
+  font-weight: var(--font-bold);
+}
+.headingTitle h1 {
+  font-size: 36px;
+  color: var(--color-black-dark);
+  font-weight: var(--font-bold);
+}
+.headingTitle p {
+  color: var(--color-black-light);
+  max-width: 660px;
+  text-align: center;
+}
+
+@media (max-width: 550px) {
+  .headingTitle {
+    text-align: center;
+  }
+}
