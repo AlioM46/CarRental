@@ -1,7 +1,6 @@
 import React from "react";
 import downloadAndroid from "../../../assets/images/downloadAndroid.svg";
 import downlaodIOS from "../../../assets/images/downloadIOS.svg";
-import downloadImage from "../../../assets/images/downloadPhone.png";
 import PageContainer from "../../../components/PageContainer/PageContainer";
 import "./downloadApp.css";
 const downloadApp = () => {
